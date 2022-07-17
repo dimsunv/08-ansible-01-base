@@ -7,3 +7,7 @@
     hosts:
       ubuntu:
         ansible_connection: docker
+  test:
+    hosts:
+      fedora:
+        ansible_connection: docker
